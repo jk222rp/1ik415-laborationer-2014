@@ -15,5 +15,38 @@
             <li><a href="presentation.html">Om mig</a></li>
             <li><a href="kontakt.html">Kontakt</a></li>
         </ul>
+        
+        <form action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="post">
+        
+    <!--Form first part-->
+            <fieldset>
+                <legend>Ett formulär</legend>
+                
+                <label for="text">Skriv något:</label>
+                <input placeholder="Här kan du skriva något" type="text" id="text" name="text" />
+                
+                <label for="moretext">Skriv något mer:</label>
+                <textarea rows="10" cols="30" placeholder="Här kan du skriva något mer" id="moretext" name="moretext"></textarea>
+            </fieldset>
+            
+    <!--Form second part-->
+            <fieldset>
+                <legend>Bä bä vita lamm</legend>
+                
+                <label for="wool">Har du någon ull?</label>
+                <input type="radio" id="wool" name="wool" value="yes" />Ja kära barn, jag har säcken full
+                <input type="radio" id="wool" name="wool" value="no" />Nej.
+                
+                <label for="clothes">Välj ett klädesplagg!</label>
+                <select id="clothes" name="clothes">
+                    <option value="skirt">Söndagskjol åt mor</option>
+                    <option value="coat">Helgdagsrock åt far</option>
+                    <option value="socks">Två par strumpor åt lillebror</option>
+                </select>
+            </fieldset>
+                
+    <!--Send form-->
+                <button type="submit">EN KNAPP! TRYCK!</button>
+        </form>
     </body>
 </html>
