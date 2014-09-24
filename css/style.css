@@ -48,3 +48,34 @@ table {
 }
 
 /*END OF RESET*/
+
+/*START OF STYLE*/
+
+/*Layout*/
+#container {
+    margin: 0 auto;
+    width: 960px;
+    overflow: auto;
+}
+
+#header {
+    width: 960px;
+    height: 192px;
+}
+
+#nav {
+    float: left;
+    width: 192px;
+}
+
+#content {
+    float: left;
+    width: 768px;
+}
+
+#footer {
+    clear: both;
+    width: 960px;
+}
+
+

@@ -7,47 +7,64 @@
     </head>
 
     <body>
-        <h1>Julias laborationsblogg</h1>
-        
+        <div id="container">
+    
+            <div id="header">
+                <h1>Julias laborationsblogg</h1>
+            </div>
+            
 <!--Menu-->
-        <ul>
-            <li><a href="../index.html">Startsida</a></li>
-            <li><a href="laborationer.html">Laborationer</a></li>
-            <li><a href="presentation.html">Om mig</a></li>
-            <li><a href="kontakt.html">Kontakt</a></li>
-        </ul>
+            <div id="nav">
+                <ul>
+                    <li><a href="../index.html">Startsida</a></li>
+                    <li><a href="laborationer.html">Laborationer</a></li>
+                    <li><a href="presentation.html">Om mig</a></li>
+                    <li><a href="kontakt.html">Kontakt</a></li>
+                </ul>
+            </div>
         
-        <form action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="post">
+<!--Form-->
+            <div id="content">
+                <form action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="post">
         
     <!--Form first part-->
-            <fieldset>
-                <legend>Ett formulär</legend>
-                
-                <label for="text">Skriv något:</label>
-                <input placeholder="Här kan du skriva något" type="text" id="text" name="text" />
-                
-                <label for="moretext">Skriv något mer:</label>
-                <textarea rows="10" cols="30" placeholder="Här kan du skriva något mer" id="moretext" name="moretext"></textarea>
-            </fieldset>
+                    <fieldset>
+                        <legend>Ett formulär</legend>
+                        
+                        <label for="text">Skriv något:</label>
+                        <input placeholder="Här kan du skriva något" type="text" id="text" name="text" />
+                        
+                        <label for="moretext">Skriv något mer:</label>
+                        <textarea rows="10" cols="30" placeholder="Här kan du skriva något mer" id="moretext" name="moretext"></textarea>
+                    </fieldset>
             
     <!--Form second part-->
-            <fieldset>
-                <legend>Bä bä vita lamm</legend>
-                
-                <p>Har du någon ull?</p>
-                <input type="radio" id="woolyes" name="wool" value="yes" /><label for="woolyes">Ja kära barn, jag har säcken full</label>
-                <input type="radio" id="woolno" name="wool" value="no" /><label for="woolno">Nej.</label>
-                
-                <label for="clothes">Välj ett klädesplagg!</label>
-                <select id="clothes" name="clothes">
-                    <option value="skirt">Söndagskjol åt mor</option>
-                    <option value="coat">Helgdagsrock åt far</option>
-                    <option value="socks">Två par strumpor åt lillebror</option>
-                </select>
-            </fieldset>
+                    <fieldset>
+                        <legend>Bä bä vita lamm</legend>
+                        
+                        <p>Har du någon ull?</p>
+                        <input type="radio" id="woolyes" name="wool" value="yes" /><label for="woolyes">Ja kära barn, jag har säcken full</label>
+                        <input type="radio" id="woolno" name="wool" value="no" /><label for="woolno">Nej.</label>
+                        
+                        <label for="clothes">Välj ett klädesplagg!</label>
+                        <select id="clothes" name="clothes">
+                            <option value="skirt">Söndagskjol åt mor</option>
+                            <option value="coat">Helgdagsrock åt far</option>
+                            <option value="socks">Två par strumpor åt lillebror</option>
+                        </select>
+                    </fieldset>
                 
     <!--Send form-->
-                <button type="submit">EN KNAPP! TRYCK!</button>
-        </form>
+                    <button type="submit">EN KNAPP! TRYCK!</button>
+                </form>
+            </div>
+
+<!--Go to top-->        
+            <div id="footer">
+                <p><a href="#header">Gå till toppen</a></p>
+            </div>
+        
+        </div>
+        
     </body>
 </html>
