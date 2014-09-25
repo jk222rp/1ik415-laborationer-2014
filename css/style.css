@@ -51,6 +51,18 @@ table {
 
 /*START OF STYLE*/
 
+
+/*COLORS
+  Background color: #fff (white)
+  Text main color: #000 (black)
+  Main color: #f60 (orange)
+  Visited links color: #b24700 (dark orange)
+  Light orange: #ff7519
+  Second color (links etc): #00a9b2 (blue)
+  Third color: #00f1ff (light blue)
+*/
+
+
 /*Layout*/
 #container {
     margin: 0 auto;
@@ -59,8 +71,8 @@ table {
 }
 
 #header {
-    width: 960px;
-    height: 192px;
+    width: 320px;
+    height: 118px;
 }
 
 #nav {
@@ -77,5 +89,74 @@ table {
     clear: both;
     width: 960px;
 }
+
+/*Backgrounds and borders*/
+
+#header {
+    border-bottom: dashed #f60 2px;
+}
+
+#footer {
+    background: #f60;
+}
+
+table {
+    border: solid #00a9b2 2px;
+}
+
+th, td {
+    border: solid #00a9b2 1px;
+}
+
+fieldset {
+    border: solid #00a9b2 1px;
+}
+
+/*Texts and links*/
+
+h1 {
+    color: #000;
+}
+
+h2 {
+    border-bottom: solid #00a9b2 2px;
+    color: #000;
+}
+
+#presentation h2 {
+    border: 0px;
+    color: #000;
+}
+
+h3 {
+    border-bottom: dashed #00a9b2 1px;
+    color: #000;
+}
+
+p {
+    color: #000;
+}
+
+.postfoot {
+    border-bottom: dashed #00a9b2 1px;
+    border-top: dashed #00a9b2 1px;
+}
+
+a:link {color: #00a9b2;}
+a:visited {color: #b24700;}
+a:focus {color: #00a9b2; border: solid #f60 1px;}
+a:hover {color: #000;}
+a:active {color: #fff;}
+
+#footer a {
+    color: #000;
+}
+
+#footer a:hover {
+    color: #fff;
+}
+
+
+
 
 
