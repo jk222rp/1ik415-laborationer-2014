@@ -11,7 +11,7 @@ small, strike, strong, sub, sup, tt, var,
 b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
+/*table, caption, tbody, tfoot, thead, tr, th, td,*/
 article, aside, canvas, details, embed, 
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
@@ -71,8 +71,8 @@ table {
 }
 
 #header {
-    width: 320px;
-    height: 118px;
+    width: 480px;
+    height: 160px;
 }
 
 #nav {
@@ -106,6 +106,7 @@ table {
 
 th, td {
     border: solid #00a9b2 1px;
+    padding: 0.5em;
 }
 
 fieldset {
@@ -116,11 +117,21 @@ fieldset {
 
 h1 {
     color: #000;
+    font-family: Consolas, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 30px;
 }
 
 h2 {
     border-bottom: solid #00a9b2 2px;
     color: #000;
+    font-family: Consolas, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 30px;
+    
 }
 
 #presentation h2 {
@@ -131,18 +142,76 @@ h2 {
 h3 {
     border-bottom: dashed #00a9b2 1px;
     color: #000;
+    font-family: Consolas, Verdana, sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 25px;
 }
 
 p {
     color: #000;
+    font-family: Verdana, sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+
+/*resets the reset of lists*/
+ul { 
+   list-style-type: disc; 
+   list-style-position: inside; 
+}
+ol { 
+   list-style-type: decimal; 
+   list-style-position: inside; 
+}
+ul ul, ol ul { 
+   list-style-type: circle; 
+   list-style-position: inside; 
+   margin-left: 15px; 
+}
+ol ol, ul ol { 
+   list-style-type: lower-latin; 
+   list-style-position: inside; 
+   margin-left: 15px; 
+}
+/*resets the reset of lists*/
+
+
+li {
+    color: #000;
+    font-family: Verdana, sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+dl {
+    color: #000;
+    font-family: Verdana, sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+    list-style-position: inside;
+	margin:0 0 1.5em 0;
+}
+
+dl dt {
+	font-weight:bold;
+}
+dd {
+	margin-left:1.5em;
+}
+
+td {
+    text-align: center;
 }
 
 .postfoot {
     border-bottom: dashed #00a9b2 1px;
     border-top: dashed #00a9b2 1px;
+    text-align: right;
 }
 
-a:link {color: #00a9b2;}
+a:link {color: #00a9b2; font-family: Verdana, sans-serif; font-size:14px; line-height: 21px;}
 a:visited {color: #b24700;}
 a:focus {color: #000; border: solid #f60 2px;}
 a:hover {color: #000;}
@@ -150,6 +219,11 @@ a:active {color: #fff;}
 
 #footer a {
     color: #000;
+    display: block;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
 }
 
 #footer a:hover {
@@ -159,7 +233,7 @@ a:active {color: #fff;}
 #nav a {
     border-bottom: dashed #f60 1px;
     display: block;
-    font-family: Consolas, Verdana;
+    font-family: Consolas, Verdana, sans-serif;
     font-size: 20px;
     font-weight: bold;
     height: 50px;
@@ -167,6 +241,10 @@ a:active {color: #fff;}
     text-decoration: none;
     text-transform: uppercase;
     white-space: nowrap;
+}
+
+#nav li {
+    list-style-type: none;
 }
 
 #nav a:link, #nav a:visited {color: #f60;}
@@ -179,5 +257,21 @@ a:active {color: #fff;}
     text-indent: 35px;
 }
 
+legend {
+    color: #000;
+    font-family: Consolas, Verdana, sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 25px;
+}
+
+label, input, textarea {
+    color: #000;
+    font-family: Verdana, sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+button:hover {font-weight: bold;}
 
 
