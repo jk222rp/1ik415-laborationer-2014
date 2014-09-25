@@ -144,7 +144,7 @@ p {
 
 a:link {color: #00a9b2;}
 a:visited {color: #b24700;}
-a:focus {color: #00a9b2; border: solid #f60 1px;}
+a:focus {color: #000; border: solid #f60 2px;}
 a:hover {color: #000;}
 a:active {color: #fff;}
 
@@ -156,7 +156,22 @@ a:active {color: #fff;}
     color: #fff;
 }
 
+#nav a {
+    border-bottom: dashed #f60 1px;
+    display: block;
+    font-family: Consolas, Verdana;
+    font-size: 20px;
+    height: 50px;
+    line-height: 50px;
+    text-decoration: none;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
 
+.active {
+    background: #fff url(pics/pil.png) no-repeat center left;
+    text-indent: 35px;
+}
 
 
 
