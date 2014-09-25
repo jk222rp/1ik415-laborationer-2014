@@ -161,12 +161,18 @@ a:active {color: #fff;}
     display: block;
     font-family: Consolas, Verdana;
     font-size: 20px;
+    font-weight: bold;
     height: 50px;
     line-height: 50px;
     text-decoration: none;
     text-transform: uppercase;
     white-space: nowrap;
 }
+
+#nav a:link, #nav a:visited {color: #f60;}
+#nav a:focus {color: #000; border: solid #f60 2px;}
+#nav a:hover {color: #000;}
+#nav a:active {color: #fff;}
 
 .active {
     background: #fff url(pics/pil.png) no-repeat center left;
