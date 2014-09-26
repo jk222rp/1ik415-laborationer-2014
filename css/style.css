@@ -71,7 +71,7 @@ table {
 }
 
 #header {
-    margin: 40px auto 80px auto;
+    margin: 40px auto 40px auto;
     width: 480px;
     height: 160px;
 }
@@ -84,12 +84,22 @@ table {
 
 #content {
     float: left;
-    width: 753px;
+    width: 500px;
+    padding-left: 23px;
+    padding-bottom: 28px;
 }
 
 #footer {
     clear: both;
     width: 960px;
+}
+
+#post #content {
+    padding-bottom: 0;
+}
+
+video, img {
+    margin: 10px;
 }
 
 /*Backgrounds and borders*/
@@ -135,12 +145,15 @@ h2 {
     font-size: 20px;
     font-weight: bold;
     line-height: 30px;
-    
+    margin: 0 0 10px 0;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 #presentation h2 {
     border: 0px;
     color: #000;
+    margin: 20px 0 5px 0;
 }
 
 h3 {
@@ -150,6 +163,13 @@ h3 {
     font-size: 17px;
     font-weight: bold;
     line-height: 25px;
+    margin: 0 0 10px 0;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#laborationer h2, #laborationer h3 {
+    margin: 10px 0 20px 0;
 }
 
 p {
@@ -157,27 +177,28 @@ p {
     font-family: Verdana, sans-serif;
     font-size: 14px;
     line-height: 21px;
+    padding: 5px 10px;
 }
 
 
 /*resets the reset of lists*/
 ul { 
-   list-style-type: disc; 
-   list-style-position: inside; 
+    list-style-type: disc; 
+    list-style-position: inside;
 }
 ol { 
-   list-style-type: decimal; 
-   list-style-position: inside; 
+    list-style-type: decimal; 
+    list-style-position: inside;
 }
 ul ul, ol ul { 
-   list-style-type: circle; 
-   list-style-position: inside; 
-   margin-left: 15px; 
+    list-style-type: circle; 
+    list-style-position: inside; 
+    margin-left: 15px;
 }
 ol ol, ul ol { 
-   list-style-type: lower-latin; 
-   list-style-position: inside; 
-   margin-left: 15px; 
+    list-style-type: lower-latin; 
+    list-style-position: inside; 
+    margin-left: 15px;
 }
 /*resets the reset of lists*/
 
@@ -187,6 +208,8 @@ li {
     font-family: Verdana, sans-serif;
     font-size: 14px;
     line-height: 21px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 dl {
@@ -196,6 +219,8 @@ dl {
     line-height: 21px;
     list-style-position: inside;
 	margin:0 0 1.5em 0;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 dl dt {
@@ -205,6 +230,10 @@ dd {
 	margin-left:1.5em;
 }
 
+table {
+    margin: 10px;
+}
+
 td {
     text-align: center;
 }
@@ -212,6 +241,8 @@ td {
 .postfoot {
     border-bottom: dashed #00a9b2 1px;
     border-top: dashed #00a9b2 1px;
+    margin: 10px 0 30px 0;
+    padding: 0 10px;
     text-align: right;
 }
 
