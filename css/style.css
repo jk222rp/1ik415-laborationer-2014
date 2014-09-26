@@ -98,10 +98,6 @@ table {
     padding-bottom: 0;
 }
 
-video, img {
-    margin: 10px;
-}
-
 /*Backgrounds and borders*/
 
 #header {
@@ -311,4 +307,19 @@ label, input, textarea {
 
 button:hover {font-weight: bold;}
 
+/*Bilder och video*/
+video, img {
+    margin: 10px;
+}
 
+.right, .left {
+    margin: 10px;
+}
+
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
+}
