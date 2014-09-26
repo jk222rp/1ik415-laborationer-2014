@@ -78,12 +78,13 @@ table {
 
 #nav {
     float: left;
-    width: 192px;
+    margin: 0 27px 0 5px;
+    width: 175px;
 }
 
 #content {
     float: left;
-    width: 768px;
+    width: 753px;
 }
 
 #footer {
@@ -241,6 +242,8 @@ a:active {color: #fff;}
     font-weight: bold;
     height: 50px;
     line-height: 50px;
+    padding-right: 5px;
+    text-align: right;
     text-decoration: none;
     text-transform: uppercase;
     white-space: nowrap;
