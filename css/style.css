@@ -63,6 +63,10 @@ table {
 */
 
 
+body {
+    font-size: 1em;
+}
+
 /*Layout*/
 #container {
     margin: 0 auto;
@@ -91,7 +95,6 @@ table {
 
 #footer {
     clear: both;
-    width: 960px;
 }
 
 #post #content {
@@ -127,20 +130,20 @@ fieldset {
 h1 {
     color: #000;
     font-family: Consolas, Verdana, sans-serif;
-    font-size: 20px;
+    font-size: 1.25em;
     font-weight: bold;
     padding-top: 100px;
     text-align: center;
-    line-height: 30px;
+    line-height: 1.875em;
 }
 
 h2 {
     border-bottom: solid #00a9b2 2px;
     color: #000;
     font-family: Consolas, Verdana, sans-serif;
-    font-size: 20px;
+    font-size: 1.25em;
     font-weight: bold;
-    line-height: 30px;
+    line-height: 1.875em;
     margin: 0 0 10px 0;
     padding-left: 10px;
     padding-right: 10px;
@@ -156,9 +159,9 @@ h3 {
     border-bottom: dashed #00a9b2 1px;
     color: #000;
     font-family: Consolas, Verdana, sans-serif;
-    font-size: 17px;
+    font-size: 1.0625em;
     font-weight: bold;
-    line-height: 25px;
+    line-height: 1.5625em;
     margin: 0 0 10px 0;
     padding-left: 10px;
     padding-right: 10px;
@@ -171,8 +174,8 @@ h3 {
 p {
     color: #000;
     font-family: Verdana, sans-serif;
-    font-size: 14px;
-    line-height: 21px;
+    font-size: 0.875em;
+    line-height: 1.3125em;
     padding: 5px 10px;
 }
 
@@ -202,8 +205,8 @@ ol ol, ul ol {
 li {
     color: #000;
     font-family: Verdana, sans-serif;
-    font-size: 14px;
-    line-height: 21px;
+    font-size: 0.875em;
+    line-height: 1.3125em;
     padding-left: 10px;
     padding-right: 10px;
 }
@@ -211,8 +214,8 @@ li {
 dl {
     color: #000;
     font-family: Verdana, sans-serif;
-    font-size: 14px;
-    line-height: 21px;
+    font-size: 0.875em;
+    line-height: 1.3125em;
     list-style-position: inside;
 	margin:0 0 1.5em 0;
     padding-left: 10px;
@@ -242,7 +245,7 @@ td {
     text-align: right;
 }
 
-a:link {color: #00a9b2; font-family: Verdana, sans-serif; font-size:14px; line-height: 21px;}
+a:link {color: #00a9b2; font-family: Verdana, sans-serif; font-size: 0.875em; line-height: 1.3125em;}
 a:visited {color: #b24700;}
 a:focus {color: #000; border: solid #f60 2px;}
 a:hover {color: #000;}
@@ -265,10 +268,10 @@ a:active {color: #fff;}
     border-bottom: dashed #f60 1px;
     display: block;
     font-family: Consolas, Verdana, sans-serif;
-    font-size: 20px;
+    font-size: 1.25em;
     font-weight: bold;
-    height: 50px;
-    line-height: 50px;
+    height: 3.125em;
+    line-height: 3.125em;
     padding-right: 5px;
     text-align: right;
     text-decoration: none;
@@ -290,19 +293,80 @@ a:active {color: #fff;}
     text-indent: 35px;
 }
 
+/*Formulär*/
+fieldset {
+    margin-bottom: 20px;
+    padding: 5px;
+}
+
 legend {
     color: #000;
     font-family: Consolas, Verdana, sans-serif;
-    font-size: 17px;
+    font-size: 1.0625em;
     font-weight: bold;
-    line-height: 25px;
+    line-height: 1.5625em;
+    margin-left: 5px;
+    padding: 0 5px;
 }
 
 label, input, textarea {
     color: #000;
     font-family: Verdana, sans-serif;
-    font-size: 14px;
-    line-height: 21px;
+    font-size: 0.875em;
+    line-height: 1.3125em;
+}
+
+#form1 label {
+    clear: left;
+    display: block;
+    float: left;
+    margin: 5px 0;
+    padding: 0 5px 5px 5px;
+    text-align: right;
+    width: 125px;
+}
+
+#form2 label {
+    float: left;
+    padding: 0 5px 5px 5px;
+}
+
+#select {
+    float: left;
+    clear: left;
+    margin: 10px 0 0 5px;
+    padding: 0 5px 5px 5px;
+}
+
+.radio {
+    clear: none;
+}
+
+#text, #moretext {
+    float: left;
+    margin: 5px;
+}
+
+fieldset p {
+    clear: both;
+    float: left;
+}
+
+#woolyes, #woolno {
+    clear: left;
+    float: left;
+}
+
+select {
+    clear: both;
+    float: left;
+    margin-bottom: 5px;
+}
+
+button {
+    border-color: #00a9b2;
+    float: right;
+    width: 150px;
 }
 
 button:hover {font-weight: bold;}

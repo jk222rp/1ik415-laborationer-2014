@@ -28,7 +28,7 @@
                 <form action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="post">
         
     <!--Form first part-->
-                    <fieldset>
+                    <fieldset id="form1">
                         <legend>Ett formulär</legend>
                         
                         <label for="text">Skriv något:</label>
@@ -39,14 +39,14 @@
                     </fieldset>
             
     <!--Form second part-->
-                    <fieldset>
+                    <fieldset id="form2">
                         <legend>Bä bä vita lamm</legend>
                         
                         <p>Har du någon ull?</p>
-                        <input type="radio" id="woolyes" name="wool" value="yes" /><label for="woolyes">Ja kära barn, jag har säcken full</label>
-                        <input type="radio" id="woolno" name="wool" value="no" /><label for="woolno">Nej.</label>
+                        <input type="radio" id="woolyes" name="wool" value="yes" /><label for="woolyes" class="radio">Ja kära barn, jag har säcken full</label>
+                        <input type="radio" id="woolno" name="wool" value="no" /><label for="woolno" class="radio">Nej.</label>
                         
-                        <label for="clothes">Välj ett klädesplagg!</label>
+                        <label for="clothes" id="select">Välj ett klädesplagg!</label>
                         <select id="clothes" name="clothes">
                             <option value="skirt">Söndagskjol åt mor</option>
                             <option value="coat">Helgdagsrock åt far</option>
