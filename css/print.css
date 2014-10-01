@@ -1,0 +1,33 @@
+#nav, #footer {
+    display: none;
+}
+
+#content {
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+}
+
+video {
+    display: none;
+}
+
+.printtext {
+    display: inherit;
+    font-weight: bold;
+    font-style: italic;
+}
+
+a:link, a:visited, a:focus, a:hover, a:active {
+    color: #0000cc;
+}
+
+a:after {
+    color: #000;
+    content: " [" attr(href) "] ";
+    text-decoration: none;
+}
+
+legend {
+    background-color: #fff;
+}

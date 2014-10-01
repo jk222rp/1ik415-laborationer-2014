@@ -179,6 +179,10 @@ p {
     padding: 5px 10px;
 }
 
+.printtext {
+    display: none;
+}
+
 
 /*resets the reset of lists*/
 ul { 
@@ -240,6 +244,7 @@ td {
 .postfoot {
     border-bottom: dashed #00a9b2 1px;
     border-top: dashed #00a9b2 1px;
+    clear: both;
     margin: 10px 0 30px 0;
     padding: 0 10px;
     text-align: right;
