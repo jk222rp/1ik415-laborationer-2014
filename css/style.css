@@ -392,3 +392,30 @@ video, img {
 .left {
     float: left;
 }
+
+
+
+
+/*sprites*/
+#nav a {
+    background-image: url(pics/sprite.png);
+    background-repeat: no-repeat;
+}
+
+#start-icon { background-position: 0 -33px; }
+#start-icon:hover { background-position: 0 15px; }
+
+#lab-icon { background-position: 0 -129px; }
+#lab-icon:hover { background-position: 0 -81px; }
+
+#presentation-icon { background-position: 0 -225px; }
+#presentation-icon:hover { background-position: 0 -177px; }
+
+#contact-icon { background-position: 0 -321px; }
+#contact-icon:hover { background-position: 0 -273px; }
+
+
+
+
+
+
