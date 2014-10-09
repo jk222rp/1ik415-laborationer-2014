@@ -218,8 +218,8 @@ ol ol, ul ol {
 li {
     color: #000;
     font-family: Verdana, sans-serif;
-    font-size: 0.875em;
-    line-height: 1.3125em;
+    font-size: 1em;
+    line-height: 2em;
     padding-left: 10px;
     padding-right: 10px;
 }
@@ -227,8 +227,8 @@ li {
 dl {
     color: #000;
     font-family: Verdana, sans-serif;
-    font-size: 0.875em;
-    line-height: 1.3125em;
+    font-size: 1em;
+    line-height: 2em;
     list-style-position: inside;
 	margin:0 0 1.5em 0;
     padding-left: 10px;
@@ -317,9 +317,9 @@ fieldset {
 legend {
     color: #402440;
     font-family: Consolas, Verdana, sans-serif;
-    font-size: 1.0625em;
+    font-size: 1.3em;
     font-weight: bold;
-    line-height: 1.5625em;
+    line-height: 1.3em;
     margin-left: 5px;
     padding: 0 5px;
 }
@@ -327,8 +327,8 @@ legend {
 label, input, textarea {
     color: #000;
     font-family: Verdana, sans-serif;
-    font-size: 0.875em;
-    line-height: 1.3125em;
+    font-size: 1em;
+    line-height: 1.5em;
 }
 
 #form1 label {
@@ -389,6 +389,7 @@ button:hover {font-weight: bold;}
 /*Bilder och video*/
 video, img {
     margin: 10px;
+    max-width: 95%;
 }
 
 .right, .left {
