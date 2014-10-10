@@ -1,0 +1,41 @@
+/*STYLE FOR SCREENS AND WINDOWS SMALLER THAN 1000px*/
+
+/*COLORS
+    Background: #fff (white)
+    Header and links: #747 (light purple)
+    Head texts: #402440 (dark purple)
+    Text main: #000 (black)
+    Visited links and postfoots: #888 (gray)
+*/
+
+#header {
+    background-position: center 5px;
+    float: none;
+    margin-bottom: 40px;
+}
+
+h1 {
+    line-height: 1.25em;
+    padding-top: 60px;
+    text-align: center;
+    text-indent: 0;
+}
+
+#nav {
+    height: inherit;
+    margin: 0 auto;
+    position: inherit;
+    width: 75%;
+}
+
+#nav a {
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    padding: 0;
+    width: 50%;
+}
+
+#active a:link, #active a:visited, #active a:focus, #active a:hover, #active a:active {
+    color: #888;
+}
