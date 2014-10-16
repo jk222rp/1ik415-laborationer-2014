@@ -18,35 +18,84 @@
         <link rel="apple-touch-icon-precomposed" href="pics/shortcuticons/apple-touch-icon-57x57.png">
         
         <link rel="shortcut icon" href="pics/favicon.png" type="image/x-icon">
+        
+        <script>
+            document.createElement("header");
+            document.createElement("footer");
+            document.createElement("article");
+            document.createElement("aside");
+            document.createElement("main");
+            document.createElement("section");
+            document.createElement("nav");
+        </script>
     </head>
 
     <body>
         <div id="container">
     
-            <div id="header">
+            <header id="header">
                 <h1>Julia Källbergs laborationsblogg</h1>
-            </div>
+            </header>
         
 <!--Menu-->
-            <div id="nav">
+            <nav id="nav">
                 <ul>
                     <li><div id="active"><a id="start-icon" href="index.html">Startsida</a></div></li>
                     <li><a id="lab-icon" href="pages/laborationer.html">Laborationer</a></li>
                     <li><a id="presentation-icon" href="pages/presentation.html">Om mig</a></li>
                     <li><a id="contact-icon" href="pages/kontakt.html">Kontakt</a></li>
                 </ul>
-            </div>
+            </nav>
         
 <!--Posts-->
             <div id="post">
-            <div id="content">
-            
+            <main id="content">
+                
+                <article>
                 <h2>Copycat</h2>
                     <p>Jag har gjort uppgiften "Copycat" där jag fick ett påbörjat html-projekt som jag skulle färdigställa med hjälp av css 
                     och efterlikna en prototyp så gott jag kunde.</p>
                     <p><a href="https://uppgift-3-3-c9-jk222rp.c9.io/" target="_blank">Gå till resultatet >></a></p>
-                <p class="postfoot">2014-10-01</p>
-            
+                <footer class="postfoot"><time>2014-10-01</time></footer>
+                </article>
+                    <section class="comments">
+                        <header class="commentshead">
+                            <h2>Kommentarer</h2>
+                        </header>
+                        
+                        <section class="comment">
+                            <header class="commenthead">
+                                <h3>Kommenteraren säger:</h3>
+                            </header>
+                            <section class="thecomment">
+                                <p>Kommentaren som kommenteraren skrivit.</p>
+                            </section>
+                            <footer class="commentfoot">
+                                <time>2014-10-16</time>
+                            </footer>
+                        </section>
+                        
+                        <section class="comment">
+                            <header class="commenthead">
+                                <h3>En annan kommenterare säger:</h3>
+                            </header>
+                            <section class="thecomment">
+                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam nibh. Nunc varius facilisis eros. Sed erat. 
+                                In in velit quis arcu ornare laoreet. Curabitur adipiscing luctus massa. Integer ut purus ac augue commodo commodo. 
+                                Nunc nec mi eu justo tempor consectetuer. Etiam vitae nisl. In dignissim lacus ut ante. Cras elit lectus, bibendum a, 
+                                adipiscing vitae, commodo et, dui. Ut tincidunt tortor. Donec nonummy, enim in lacinia pulvinar, 
+                                velit tellus scelerisque augue, ac posuere libero urna eget neque. Cras ipsum. Vestibulum pretium, 
+                                lectus nec venenatis volutpat, purus lectus ultrices risus, a condimentum risus mi et quam. 
+                                Pellentesque auctor fringilla neque. Duis eu massa ut lorem iaculis vestibulum. Maecenas facilisis elit sed justo. 
+                                Quisque volutpat malesuada velit.</p>
+                            </section>
+                            <footer class="commentfoot">
+                                <time>2014-10-16</time>
+                            </footer>
+                        </section>
+                    </section>
+                
+                <article>
                 <h2 id="larva">Bildinlägg</h2>
                     <p>Hej</p>
                     <p>Här lägger jag nu upp en bild på en läskig larv för att jag ska lägga upp en bild. 
@@ -67,8 +116,27 @@
                     ornare scelerisque libero neque ut neque. In at libero. Curabitur molestie. Sed vel neque. 
                     Proin et dolor ac ipsum elementum malesuada. Praesent id orci. Donec hendrerit. In hac habitasse platea dictumst. 
                     Aenean sit amet arcu a turpis posuere pretium.</p>
-                <p class="postfoot">2014-09-26</p>
-            
+                <footer class="postfoot"><time>2014-09-26</time></footer>
+                </article>
+                    <section class="comments">
+                        <header class="commentshead">
+                            <h2>Kommentarer</h2>
+                        </header>
+                        
+                        <section class="comment">
+                            <header class="commenthead">
+                                <h3>Kommenteraren säger:</h3>
+                            </header>
+                            <section class="thecomment">
+                                <p>Kommentaren som kommenteraren skrivit.</p>
+                            </section>
+                            <footer class="commentfoot">
+                                <time>2014-10-16</time>
+                            </footer>
+                        </section>
+                    </section>
+                
+                <article>
                 <h2 id="video">En video</h2>   
                     <p>Här är en video.</p> 
                         <video src="videos/trailer_400p.ogg" controls class="left" width="300px">
@@ -78,25 +146,119 @@
                     <p><a href ="http://www.bigbuckbunny.org/" target="_blank">Videon är lånad av bigbuckbunny.org</a></p>
                     <p>Och så skriver jag en lite längre text till för att jag ska testa positioneringen på videon också. Lalalalalallalalaaaaaaaaaaaaaala! Lalalallalaaaaaaaaaaala lallalaaaaaaaa laaaaaalalallalaaaaaaa lala laaaaalala lallalallaa lalallaalalallalalla lalala lalaa lalalalalla lalalaala</p>
                     <p>Eftersom videon egentligen är lika gigantisk som kakan så går det inte att ha positionering på videon om jag inte gör den jätteliten, så jag gjorde den jätteliten! :(</p>
-                <p class="postfoot">2014-09-17</p>
-        
+                <footer class="postfoot"><time>2014-09-17</time></footer>
+                </article>
+                    <section class="comments">
+                        <header class="commentshead">
+                            <h2>Kommentarer</h2>
+                        </header>
+                        
+                        <section class="comment">
+                            <header class="commenthead">
+                                <h3>En lorem ipsum-kommenterare säger:</h3>
+                            </header>
+                            <section class="thecomment">
+                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam nibh. Nunc varius facilisis eros. Sed erat. 
+                                In in velit quis arcu ornare laoreet. Curabitur adipiscing luctus massa. Integer ut purus ac augue commodo commodo. 
+                                Nunc nec mi eu justo tempor consectetuer. Etiam vitae nisl. In dignissim lacus ut ante. Cras elit lectus, bibendum a, 
+                                adipiscing vitae, commodo et, dui. Ut tincidunt tortor. Donec nonummy, enim in lacinia pulvinar, 
+                                velit tellus scelerisque augue, ac posuere libero urna eget neque. Cras ipsum. Vestibulum pretium, 
+                                lectus nec venenatis volutpat, purus lectus ultrices risus, a condimentum risus mi et quam. 
+                                Pellentesque auctor fringilla neque. Duis eu massa ut lorem iaculis vestibulum. Maecenas facilisis elit sed justo. 
+                                Quisque volutpat malesuada velit.</p>
+                            </section>
+                            <footer class="commentfoot">
+                                <time>2014-10-16</time>
+                            </footer>
+                        </section>
+                    </section>
+                
+                <article>
                 <h2 id="cookie">Ett till inlägg</h2>   
                     <p>Här är en alldeles för stor, gigantisk kaka</p> 
                         <img src="pics/kaka.svg" alt="En chocolate chip cookie">
-                <p class="postfoot">2014-09-12</p>
+                <footer class="postfoot"><time>2014-09-12</time></footer>
+                </article>
+                    <section class="comments">
+                        <header class="commentshead">
+                            <h2>Kommentarer</h2>
+                        </header>
+                        
+                        <section class="comment">
+                            <header class="commenthead">
+                                <h3>Kommenteraren säger:</h3>
+                            </header>
+                            <section class="thecomment">
+                                <p>Kommentaren som kommenteraren skrivit.</p>
+                            </section>
+                            <footer class="commentfoot">
+                                <time>2014-10-16</time>
+                            </footer>
+                        </section>
+                        
+                        <section class="comment">
+                            <header class="commenthead">
+                                <h3>En annan kommenterare säger:</h3>
+                            </header>
+                            <section class="thecomment">
+                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam nibh. Nunc varius facilisis eros. Sed erat. 
+                                In in velit quis arcu ornare laoreet. Curabitur adipiscing luctus massa. Integer ut purus ac augue commodo commodo. 
+                                Nunc nec mi eu justo tempor consectetuer. Etiam vitae nisl. In dignissim lacus ut ante. Cras elit lectus, bibendum a, 
+                                adipiscing vitae, commodo et, dui. Ut tincidunt tortor. Donec nonummy, enim in lacinia pulvinar, 
+                                velit tellus scelerisque augue, ac posuere libero urna eget neque. Cras ipsum. Vestibulum pretium, 
+                                lectus nec venenatis volutpat, purus lectus ultrices risus, a condimentum risus mi et quam. 
+                                Pellentesque auctor fringilla neque. Duis eu massa ut lorem iaculis vestibulum. Maecenas facilisis elit sed justo. 
+                                Quisque volutpat malesuada velit.</p>
+                            </section>
+                            <footer class="commentfoot">
+                                <time>2014-10-16</time>
+                            </footer>
+                        </section>
+                        
+                        <section class="comment">
+                            <header class="commenthead">
+                                <h3>Inte Julia säger:</h3>
+                            </header>
+                            <section class="thecomment">
+                                <p>VILKEN OTROLIGT FIN KAKA!</p>
+                            </section>
+                            <footer class="commentfoot">
+                                <time>2014-10-16</time>
+                            </footer>
+                        </section>
+                    </section>
                 
+                <article>
                 <h2>Första blogginlägget</h2>
                     <p>Hejhej!</p>
                     <p>Det här är mitt första inlägg på den här bloggen, som jag skriver för att jag ska göra det.</p>
-                <p class="postfoot">2014-09-04</p>
+                <footer class="postfoot"><time>2014-09-04</time></footer>
+                </article>
+                    <section class="comments">
+                        <header class="commentshead">
+                            <h2>Kommentarer</h2>
+                        </header>
+                        
+                        <section class="comment">
+                            <header class="commenthead">
+                                <h3>Någon säger:</h3>
+                            </header>
+                            <section class="thecomment">
+                                <p>Hej.</p>
+                            </section>
+                            <footer class="commentfoot">
+                                <time>2014-10-16</time>
+                            </footer>
+                        </section>
+                    </section>
                 
-            </div>
+            </main>
             </div>
             
 <!--Go to top-->
-            <div id="footer">
+            <footer id="footer">
                 <p><a href="#header">Gå till toppen</a></p>
-            </div>
+            </footer>
         
         </div>
     </body>

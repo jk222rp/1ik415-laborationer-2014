@@ -25,7 +25,7 @@ time, mark, audio, video {
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
+footer, header, hgroup, main, menu, nav, section {
 	display: block;
 }
 body {
@@ -247,6 +247,8 @@ td {
     border-bottom: solid #747 1px;
     clear: both;
     color: #888;
+    font-family: Verdana, sans-serif;
+    font-size: 1em;
     line-height: 1.2em;
     margin: 10px 0 30px 0;
     padding: 0 10px;
@@ -396,3 +398,48 @@ video, img {
 .left {
     float: left;
 }
+
+
+
+/*Kommentarer*/
+.comments { /*Hela kommentarsbiten*/
+    border: solid #747 1px;
+    padding: 5px 0;
+    margin: -20px 5px 30px 5px;
+}
+
+.commentshead h2 { /*Rubrik för kommentarsbiten*/
+    border-bottom: solid #747 1px;
+    font-size: 1.3em;
+    line-height: 1.3em;
+}
+
+.comment { /*En kommentar*/
+    padding: 5px;
+}
+
+.commenthead h3 { /*Rubrik för en kommentar*/
+    color: #747;
+    font-size: 1.1em;
+    line-height: 1.1em;
+    margin: 0;
+}
+
+.thecomment { /*Kommentaren*/
+    font-size: 0.8em;
+    line-height: 1.6em;
+}
+
+.commentfoot { /*Fot för en kommentar*/
+    border-bottom: solid #747 1px;
+    clear: both;
+    color: #888;
+    font-family: Verdana, sans-serif;
+    font-size: 0.8em;
+    line-height: 1.5em;
+    margin: 0 0 10px 0;
+    padding: 0 10px;
+    text-align: right;
+}
+
+
