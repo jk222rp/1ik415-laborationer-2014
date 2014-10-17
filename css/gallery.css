@@ -70,7 +70,7 @@ body {
     background: #fff url(pics/bakgrund.png) no-repeat top left;
     background-position: 0 60px;
     background-size: 100%;
-    margin: 0 auto;
+    margin: 0 auto 50px auto;
     width: 100%;
     overflow: auto;
 }
@@ -96,9 +96,42 @@ h1 {
 
 #gallery {
     margin: 100px auto 0 auto;
-    max-width: 940px;
-    padding: 0 10px
+    max-width: 1000px;
+    padding: 20px 20px;
+    overflow: hidden;
+}
+
+a {
+    background-color: white;
+    border: solid white 10px;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.3);
+    display: block;
+    float: left;
+    text-decoration: none;
+    -webkit-transform: rotate(7deg);
+    transform: rotate(7deg);
+}
+
+a:nth-child(even) {
+    -webkit-transform: rotate(-4deg);
+    transform: rotate(-4deg);
+}
+
+a:nth-child(3n+0) {
+    -webkit-transform: rotate(4deg);
+    transform: rotate(4deg);
+}
+
+a:nth-child(11) {
+    margin-bottom: 50px;
 }
 
 img {
+    display: block;
+    width: 150px;
+}
+
+a:after {
+    color: #747;
+    content: attr(title);
 }
