@@ -119,6 +119,8 @@ a {
     text-decoration: none;
     -webkit-transform: rotate(7deg);
     transform: rotate(7deg);
+    -webkit-transition: all 0.3s linear;
+    transition: all 0.3s linear;
     width: 170px;
 }
 
@@ -184,8 +186,6 @@ a:hover, a:focus {
     overflow: visible;
     position: relative;
     z-index: 1500;
-    -webkit-transition: all 0.3s linear;
-    transition: all 0.3s linear;
     -webkit-transform: rotate(0deg) scale(2);
     transform: rotate(0deg) scale(2);
 }
@@ -200,6 +200,8 @@ a:hover, a:focus {
     margin: 10px 0 0 30px;
     -webkit-transform: none;
     transform: none;
+    -webkit-transition: none;
+    transition: none;
     width: 50px;
 }
 
@@ -212,8 +214,6 @@ a:hover, a:focus {
     box-shadow: none;
     overflow: visible;
     position: inherit;
-    -webkit-transition: none;
-    transition: none;
     -webkit-transform: none;
     transform: none;
 }
