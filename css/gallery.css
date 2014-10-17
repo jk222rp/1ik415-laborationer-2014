@@ -103,13 +103,20 @@ h1 {
 
 a {
     background-color: white;
-    border: solid white 10px;
-    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.3);
+    border: solid #eee 1px;
+    border-bottom: none;
+    box-shadow: 7px 7px 5px rgba(0, 0, 0, 0.3);
     display: block;
     float: left;
+    font-family: 'Nothing You Could Do', cursive;
+    font-weight: bold;
+    font-size: 1em;
+    line-height: 1.5em;
+    text-align: center;
     text-decoration: none;
     -webkit-transform: rotate(7deg);
     transform: rotate(7deg);
+    width: 170px;
 }
 
 a:nth-child(even) {
@@ -118,6 +125,7 @@ a:nth-child(even) {
 }
 
 a:nth-child(3n+0) {
+    text-indent: 100px;
     -webkit-transform: rotate(4deg);
     transform: rotate(4deg);
 }
@@ -126,8 +134,39 @@ a:nth-child(11) {
     margin-bottom: 50px;
 }
 
+a:nth-child(1), a:nth-child(2), a:nth-child(5), a:nth-child(9), a:nth-child(11) {
+    font-size: 0.9em;
+}
+
+a:nth-child(2), a:nth-child(5), a:nth-child(11) {
+    text-indent: 100px;
+}
+
+a:nth-child(1) { position: relative; z-index: 800; }
+
+a:nth-child(2) { position: relative; z-index: 300; }
+
+a:nth-child(3) { position: relative; z-index: 700; }
+
+a:nth-child(4) { position: relative; z-index: 600; }
+
+a:nth-child(5) { position: relative; z-index: 200; }
+
+a:nth-child(6) { position: relative; z-index: 1000; }
+
+a:nth-child(7) { position: relative; z-index: 100; }
+
+a:nth-child(8) { position: relative; z-index: 50; }
+
+a:nth-child(9) { position: relative; z-index: 400; }
+
+a:nth-child(10) { position: relative; z-index: 500; }
+
+a:nth-child(11) { position: relative; z-index: 900; }
+
 img {
     display: block;
+    margin: 10px auto 0 auto;
     width: 150px;
 }
 
@@ -135,3 +174,5 @@ a:after {
     color: #747;
     content: attr(title);
 }
+
+
